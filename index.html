@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mechanica &amp; Dynamica LLC — Advanced computational simulation and AI‑driven prediction for complex physical systems." />
+  <title>Mechanica &amp; Dynamica LLC</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======================== NAVIGATION ======================== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">M</span>
+        Mechanica &amp; Dynamica
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#contact" class="nav__cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero__badge">
+        <span>&#128301;</span> Simulation &amp; AI Research &amp; Development
+      </div>
+
+      <h1 class="hero__title">
+        Where Physics Meets<br />
+        <span>Artificial Intelligence</span>
+      </h1>
+
+      <p class="hero__description">
+        Mechanica &amp; Dynamica LLC combines rigorous mathematical modeling with
+        state‑of‑the‑art machine learning to create tools that reproduce dynamic
+        systems with high accuracy and anticipate their future behavior.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#services" class="btn btn--primary">Explore Our Solutions &#8594;</a>
+        <a href="#about"    class="btn btn--outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== STATS ======================== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat">
+          <div class="stat__number">AI+</div>
+          <div class="stat__label">Machine Learning Algorithms</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">PDE</div>
+          <div class="stat__label">Rigorous Mathematical Modeling</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">HPC</div>
+          <div class="stat__label">High‑Performance Simulation</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">R&amp;D</div>
+          <div class="stat__label">Cutting‑Edge Research</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== ABOUT ======================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__body">
+          <span class="section-label">Who We Are</span>
+          <h2 class="section-title">Advanced Solutions for Complex Physical Problems</h2>
+          <p style="margin-top:1rem;">
+            At Mechanica &amp; Dynamica LLC, we specialize in the research and
+            development of advanced software solutions designed to tackle complex
+            physical problems through computational simulation and AI‑driven
+            prediction.
+          </p>
+          <p>
+            By combining rigorous mathematical modeling with state‑of‑the‑art machine
+            learning algorithms, we create tools that not only reproduce dynamic
+            systems with high accuracy but also anticipate their future behavior.
+          </p>
+          <p>
+            This hybrid approach — merging the precision of simulation with the
+            foresight of artificial intelligence — empowers industries and researchers
+            to transform data into actionable insights, optimize processes, and achieve
+            reliable, innovative solutions for real‑world challenges.
+          </p>
+        </div>
+
+        <!-- Inline SVG diagram -->
+        <div class="about__visual">
+          <div class="about__diagram">
+            <svg viewBox="0 0 320 320" width="280" height="280" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="gA" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#3b82f6" />
+                  <stop offset="100%" stop-color="#06b6d4" />
+                </linearGradient>
+                <linearGradient id="gB" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#8b5cf6" />
+                  <stop offset="100%" stop-color="#3b82f6" />
+                </linearGradient>
+                <filter id="glow">
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+
+              <!-- Outer ring -->
+              <circle cx="160" cy="160" r="148" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 6" />
+
+              <!-- Simulation node -->
+              <circle cx="160" cy="52"  r="44" fill="url(#gA)" filter="url(#glow)" />
+              <text x="160" y="46"  text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">PHYSICS</text>
+              <text x="160" y="58"  text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">SIMULATION</text>
+
+              <!-- AI node -->
+              <circle cx="263" cy="220" r="44" fill="url(#gB)" filter="url(#glow)" />
+              <text x="263" y="214" text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">AI/ML</text>
+              <text x="263" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">PREDICTION</text>
+
+              <!-- Data node -->
+              <circle cx="57"  cy="220" r="44" fill="url(#gA)" filter="url(#glow)" opacity="0.85" />
+              <text x="57"  y="214" text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">DATA</text>
+              <text x="57"  y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="Inter,sans-serif" font-weight="700">INSIGHTS</text>
+
+              <!-- Connecting lines -->
+              <line x1="160" y1="96"  x2="230" y2="183" stroke="url(#gA)" stroke-width="1.5" opacity="0.6" />
+              <line x1="160" y1="96"  x2="90"  y2="183" stroke="url(#gA)" stroke-width="1.5" opacity="0.6" />
+              <line x1="100" y1="220" x2="218" y2="220" stroke="url(#gB)" stroke-width="1.5" opacity="0.6" />
+
+              <!-- Center hub -->
+              <circle cx="160" cy="168" r="28" fill="#0a0f1e" stroke="url(#gA)" stroke-width="2" />
+              <text x="160" y="164" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-family="Inter,sans-serif" font-weight="700">HYBRID</text>
+              <text x="160" y="175" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-family="Inter,sans-serif" font-weight="700">APPROACH</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SERVICES ======================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services__header">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Our Core Solutions</h2>
+        <p class="section-subtitle">
+          From first‑principles modeling to AI‑accelerated prediction — we deliver
+          software that bridges the gap between physical theory and practical insight.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <div class="card">
+          <div class="card__icon card__icon--blue">&#9881;</div>
+          <h3 class="card__title">Computational Simulation</h3>
+          <p class="card__body">
+            High‑fidelity numerical solvers for fluid dynamics, structural mechanics,
+            heat transfer, electromagnetics, and multi‑physics coupling — built for
+            accuracy and scalability.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon card__icon--cyan">&#129504;</div>
+          <h3 class="card__title">AI‑Driven Prediction</h3>
+          <p class="card__body">
+            Deep learning surrogate models and physics‑informed neural networks that
+            learn from simulation data to forecast system behavior orders of magnitude
+            faster than traditional solvers.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon card__icon--green">&#128200;</div>
+          <h3 class="card__title">Mathematical Modeling</h3>
+          <p class="card__body">
+            Rigorous formulation of governing equations — ODEs, PDEs, stochastic
+            models — tailored to your specific physical domain and coupled seamlessly
+            with data‑driven components.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon card__icon--purple">&#128301;</div>
+          <h3 class="card__title">Research &amp; Development</h3>
+          <p class="card__body">
+            Collaborative R&amp;D engagements where our scientists and engineers work
+            alongside your team to prototype, validate, and productionize novel
+            simulation‑AI pipelines.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon card__icon--blue">&#128202;</div>
+          <h3 class="card__title">Data‑to‑Insight Pipelines</h3>
+          <p class="card__body">
+            End‑to‑end workflows that ingest experimental or sensor data, fuse it with
+            physics‑based models, and surface actionable metrics through intuitive
+            dashboards and APIs.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon card__icon--cyan">&#128296;</div>
+          <h3 class="card__title">Process Optimization</h3>
+          <p class="card__body">
+            Bayesian optimization, reinforcement learning, and gradient‑based methods
+            applied to complex industrial processes — reducing costs, improving yield,
+            and mitigating risk.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== APPROACH ======================== -->
+  <section class="approach" id="approach">
+    <div class="container">
+      <div class="approach__header">
+        <span class="section-label">How We Work</span>
+        <h2 class="section-title">Our Hybrid Approach</h2>
+        <p class="section-subtitle">
+          We follow a structured methodology that merges the precision of
+          first‑principles simulation with the foresight of machine learning.
+        </p>
+      </div>
+
+      <div class="approach__steps">
+        <div class="step">
+          <div class="step__number">1</div>
+          <h3 class="step__title">Model</h3>
+          <p class="step__body">
+            Formulate rigorous mathematical representations of your physical system,
+            capturing governing equations and boundary conditions.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <h3 class="step__title">Simulate</h3>
+          <p class="step__body">
+            Run high‑fidelity numerical simulations to generate ground‑truth data
+            across the parameter space of interest.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <h3 class="step__title">Learn</h3>
+          <p class="step__body">
+            Train physics‑informed machine learning models on simulation outputs,
+            encoding domain knowledge as inductive biases.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__number">4</div>
+          <h3 class="step__title">Predict</h3>
+          <p class="step__body">
+            Deploy AI surrogates for real‑time inference, design‑space exploration,
+            and predictive maintenance scenarios.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step__number">5</div>
+          <h3 class="step__title">Optimize</h3>
+          <p class="step__body">
+            Close the loop with optimization algorithms to drive processes toward
+            target objectives with quantified uncertainty.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== INDUSTRIES ======================== -->
+  <section class="industries" id="industries">
+    <div class="container">
+      <div class="industries__header">
+        <span class="section-label">Who We Serve</span>
+        <h2 class="section-title">Industries &amp; Research Domains</h2>
+        <p class="section-subtitle">
+          Our solutions are domain‑agnostic — wherever physics meets data, we add value.
+        </p>
+      </div>
+
+      <div class="industries__grid">
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#9992;</span> Aerospace &amp; Defense
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#9889;</span> Energy &amp; Power Systems
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#128137;</span> Biomedical Engineering
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#128663;</span> Automotive &amp; Mobility
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#127981;</span> Manufacturing &amp; Industry
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#127754;</span> Climate &amp; Environment
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#128268;</span> Robotics &amp; Control
+        </div>
+        <div class="industry-chip">
+          <span class="industry-chip__icon">&#128300;</span> Academic Research
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CONTACT ======================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Ready to Transform Your Data Into Insight?</h2>
+        <p class="section-subtitle">
+          Whether you have a well‑defined problem or just a complex challenge, we would
+          love to explore how our hybrid simulation‑AI approach can help.
+        </p>
+
+        <a href="mailto:info@mechanica-et-dynamica.com" class="contact__email">
+          &#9993;&nbsp; info@mechanica-et-dynamica.com
+        </a>
+
+        <br />
+        <a href="mailto:info@mechanica-et-dynamica.com" class="btn btn--primary">
+          Send Us a Message &#8594;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">Mechanica &amp; Dynamica LLC</span>
+      <span>&copy; <span id="year"></span> Mechanica &amp; Dynamica LLC. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
